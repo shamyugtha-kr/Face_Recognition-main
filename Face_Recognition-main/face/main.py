@@ -21,7 +21,7 @@ class Face_Recognition_System:
         self.root.title("Face Recognition System")
 
 
-        #top left corner image
+        #top left corner images
         img=Image.open(r"C:\Users\91875\Pictures\Face Project\FR3.jpeg")
         img=img.resize((500,130),Image.BICUBIC)
         self.photoimg=ImageTk.PhotoImage(img)
